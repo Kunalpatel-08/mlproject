@@ -1,11 +1,11 @@
 
-from typing import list
+from typing import List
 
 from setuptools import find_packages, setup
 
 HYPEN_E_DOT = "-e ."
 
-def get_requirements(file_path: str) -> list[str]:
+def get_requirements(file_path: str) -> List[str]:
     """Return the list of requirements."""
     requirements = []
 
